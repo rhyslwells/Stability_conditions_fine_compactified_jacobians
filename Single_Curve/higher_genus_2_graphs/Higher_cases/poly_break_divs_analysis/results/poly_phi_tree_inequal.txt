@@ -1,0 +1,17 @@
+For G62 and G63 the dimension for all polytopes given by phi-tree-inequalities is 5.
+
+The polytopes of phi-tree inequalies are combinatoricall isomorphic but not equal (also have same f-vector)
+
+The lbm-phi-polytope is not combinatorically isomorphic 
+(and not equal or contain, as in different hyperplane degree g and degree 0) to any phi-tree-polytope.
+
+phi-tree-polytope have larger .radius() than lbm-phi-polytope
+
+The intersection of all phi-tree-polytopes is dimension 5 with common point (0,0,0,0,0,0).
+
+No phi-tree-polytope contains the lbm-phi-polytope.
+
+Note:
+Two polytopes are called combinatorially isomorphic if their face lattices are isomorphic.
+
+

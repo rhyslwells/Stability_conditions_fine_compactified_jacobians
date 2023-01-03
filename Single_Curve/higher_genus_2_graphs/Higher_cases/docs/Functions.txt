@@ -1,0 +1,27 @@
+We sort the functions need to get G51,G52,G61,G62,G63.
+
+-----------------------------------------------------------------------------------------------------
+General functions:
+
+cycle_to_assignments
+mod_cycle_to_assignments
+order_cycle
+get_cycles(n)
+
+rotate(l, n)
+opp_rotate(l, n)
+cycle_mapper(cycle,maplst)
+
+remove_rt_G52(In_tree_ass, rt):
+add_back_rt_G52(In_tree_ass,red_ass,rt_part,rt)
+subcycle_tree_corrector(weak_stab_no_rt,maplst)
+get_data_memory(data_1, rt, maplst)
+ass_lst(data_memory,tree_map)
+just_assignments(ass_lst_to_check)
+tester_G52(ass_lst_to_check,wantsize)
+
+-----------------------------------------------------------------------------------------------------
+Graph specific functions:
+
+compiler_G52(In_ass,ordered_data_1_memory,ordered_data2_memory,ordered_data3_memory)
+size_checker_G52(ass_lst)
