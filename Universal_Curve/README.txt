@@ -1,11 +1,9 @@
 Primary:
 
-Folder:Main_Pn_calc_py
-Desc:Recursively constructing Pn. We get the data from sage into the correct format, then once we have the extension data we return to sage to calculate Pn+1.
 
-Folder:Main_Pn_calc_sage
-Desc: Does the work to construct Pn+1 from extension data.
-
+Folder: Pn
+Desc: Using updated notes of extending Pn to Pn+1. I re-do the calculation in Main_Pn_calc_py
+ and Main_Pn_calc_sage. I hope by doing this we can get P6 or atleast get examples in P6 not of the form a polytope in the polarisation space.
 
 
 Secondary: 
