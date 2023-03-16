@@ -1,3 +1,9 @@
+Update:020323
+
+Folders K33,Introductions are main. The rest need to be editted wrt to them.
+
+---
+
 Folder:Introduction
 Description: Introduces stability conditions. Give examples of pictures of changing top set of sigma(\Gamma).
 

@@ -1,0 +1,18 @@
+
+
+G62
+Total number of cases: 48
+Number of cases of dim:-1:0,0:0,1:0,2:0,3:0,4:0,5:48
+
+G63 
+Total number of cases: 36
+Number of cases of dim: -1:0, 0: 0, 1:0, 2:0, 3:0, 4:0,5:36
+
+G72
+Total number of cases: 240
+Number of cases of dim: -1:0, 0: 0, 1:0, 2:0, 3:0, 4:0, 5:0,6:240
+
+G73
+Total number of cases: 432
+Number of cases of dim: -1:0, 0: 0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:432
+

@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+ISSUES:
+
+- What about Z2 action on cycles, see get_leaves.
+
+- Fix out_file
+
+
+Would like to do:
+	- plot subgraphs with cycles too.
+
+Cant do currently:
+	- Add assignments onto trees at vertices (cant label vertices)
+		- Present tree with assignments nicely plotted
+
+Notes:
+
+For graphs in general we should label in a standardised way:
+	- Label a max necklace first 1,..,n
