@@ -1,0 +1,30 @@
+We now determine a phi that satisfies the phi inequalities for line bundles applied to
+the case where the stabiltiy condition is for integral break divisors.
+
+This phi is take to be the center of the polytope.
+
+"""
+G62
+The phi (center of polytope): (1/6,2/3,1/6,1/6,1/6,2/3)  does not fail the phi-inequalities
+phi average is: [0.35714286 0.5        0.21428571 0.21428571 0.21428571 0.5       ] fails the phi-inequalities
+"""
+"""
+G63
+The phi (center of polytope): (1/6,1/6,2/3,1/6,1/6,2/3) does not fail the phi-inequalities
+(0.16666666666666666, 0.16666666666666666, 0.6666666666666666, 0.16666666666666666, 0.16666666666666666, 0.6666666666666666) 
+phi average is: [0.26666667 0.26666667 0.46666667 0.26666667 0.26666667 0.46666667] fails the phi-inequalities
+"""
+
+"""
+G72
+The phi (center of polytope): (1/7,9/14,1/7,1/7,1/7,1/7,9/14) does not fail the phi-inequalities
+(0.14285714285714285, 0.6428571428571428, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.6428571428571428) 
+phi average is: [0.35294118 0.47058824 0.17647059 0.17647059 0.17647059 0.17647059 0.47058824] fails the phi-inequalities
+"""
+
+"""
+G73
+The phi (center of polytope): (1/7,1/7,9/14,1/7,1/7,1/7,9/14)  does not fail the phi-inequalities
+(0.14285714285714285, 0.14285714285714285, 0.6428571428571428, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.6428571428571428) 
+phi average is: [0.26315789 0.26315789 0.42105263 0.21052632 0.21052632 0.21052632 0.42105263] fails the phi-inequalities
+"""

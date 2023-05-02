@@ -1,0 +1,35 @@
+Consider the collection of all stability conditions for G.
+
+Graph G:
+[('0', '1', 'e1'), ('0', '2', 'e0'), ('0', '3', 'e4'), ('1', '2', 'e2'), ('2', '3', 'e3')] 
+
+Subgraphs with maximal necklace:
+1. [('0', '1', 'e1'), ('0', '3', 'e4'), ('1', '2', 'e2'), ('2', '3', 'e3')]
+
+
+We study the extensions of a fixed a cycle on the first subgraph (1.).
+The order of cycles will correspond to the order of subgraphs given above.
+
+
+Here is a summary of the cycles on the fixed subgraph 
+
+Fixed cycle      count
+-------------  -------
+(1, 2, 3, 4)         1
+(1, 2, 4, 3)         1
+(1, 3, 2, 4)         1
+(1, 3, 4, 2)         1
+(1, 4, 2, 3)         1
+(1, 4, 3, 2)         1
+
+
+Here is the data of all stabilty conditions, of cycles on the fixed subgraph 
+
+  Stability condition number  Fixed cycle    List of cycles for subgraphs in order
+----------------------------  -------------  ---------------------------------------
+                           0  (1, 4, 3, 2)   [(1, 4, 3, 2)]
+                           1  (1, 4, 2, 3)   [(1, 4, 2, 3)]
+                           2  (1, 3, 4, 2)   [(1, 3, 4, 2)]
+                           3  (1, 3, 2, 4)   [(1, 3, 2, 4)]
+                           4  (1, 2, 4, 3)   [(1, 2, 4, 3)]
+                           5  (1, 2, 3, 4)   [(1, 2, 3, 4)]

@@ -1,46 +1,66 @@
-This package has been created by Rhys Wells. It contains analysis of stability conditions for fine compactified jacobians for single and universal curve cases (See Papers).
+This package has been created by Rhys Wells. It contains analysis of stability conditions of generalised break divisors on a graph and mildly superadditive functions (See Papers).
 
-Both cases we construct non-trival examples. And conduct analysis of the results of which are discussed in Rhys's PhD thesis "Combinatorics of stability conditions of Fine Compactified Jacobians" (See Papers).
-
-------------------------------------------------------------------
-
-In Single curve:
-
-We follow definition ref in the "Nicolas new paper" (See Paper). We produce small examples of stability conditions in genus 2, and conduct analysis on the associated phi stability space. Additionally we give a method to construct any genus 1 stability conditions from a cycle described in "Geometry of genus one fine Compactified Jacobians" (See Papers).
-
-In Universal curve:
-
-We construct the set of mildly superadditive functions, Pn, up to n=5, as described in "Geometry of genus one fine Compactified Jacobians" (See Papers). And conduct analysis on Pn by following Proposition 2.12 in the above paper.
+In both cases we construct non-trival examples and conduct analysis of the results of which are discussed in Rhys's PhD thesis "Combinatorics of stability conditions of generalised break divisors" (See Papers).
 
 ------------------------------------------------------------------
 
-Each folder contains a Readme describing the most relevant script.
+In Graph:
+
+We produce examples of such stability conditions, in genus 2 especially, and conduct analysis on the associated phi stability space. Additionally we give a method to construct any genus 1 stability conditions from a cycle.
+
+In MSA:
+
+We construct the set of mildly superadditive functions up to translation, Pn, up to n=6 (See Papers). And conduct analysis on Pn.
+------------------------------------------------------------------
 
 If you are interested in helping, here are a few issues I think would be productive to investigate:
 
-	- Construct the class for stability conditions in "Single Curve".
+	- Construct a class for the notion of a stability conditions for any graph for a prescribed set of assignments. Finding good choices of assignments is the hard part.
 
-	- Implement a method to get any genus 2 stability condition, using ideas of "higher_genus_2_graphs".
-
-	- Improve the computation speed of obtaining Pn for n more than 5, possibly using Cpp.
+	- Implement a fast method to get all stability condition for a graph.
+	
+	- Check if $\sigma_{\Gamma}(\Gamma)$ is always a complete set of representatives for the chip-firing action on the graph.
 
 If you have questions or suggestions or if you find bugs, let me know.
 
-rhys.wells@liverpool.ac.uk
+rhyslwells@outlook.com
 
 ------------------------------------------------------------------
 
-Folder:Introduction
-Description: Introduces stability conditions. Give examples of pictures of changing top set of sigma(\Gamma).
+Files of Note (chronological order of appearance in thesis):
 
-Folder:genus_1_graphs
-Description:Gives stability condntions for genus 1 graphs from a cycle.
+Folder: introduction
+Description: Introduces stability conditions. Give examples of pictures showing $sigma_{\Gamma}^{A}(\Gamma)$ as $A$ varies.
+Main file: \Stability_Conditions\Graph\BasicExamples.ipynb
 
-Folder: higher_genus_2_graphs
-Description:Gets all stability conditions for graphs with middle edge of genus 2 for (5-7)vertices.
+Folder: genus_1_graphs
+Description: Gives stability condntions for genus 1 graphs from a cycle.
+Main file: \Stability_Conditions\Graph\genus_1_graphs\Cycles_to_weakstab.ipynb"
 
-Folder:low_genus_2_graphs
-Description:Gets all stability conditions for graphs with middle edge of genus 2 up to 4 vertices.
+Folder: circular_intersect
+Description: Examples of inclusion exclusion intersection numbers of patches of sigma(\Gamma) as vary divisor on tree.
+Main file: \Stability_Conditions\Graph\circular_intersect\Overlap_Analysis.ipynb
 
-Folder:Top Level overlap
-Description:Examples of inclusion exclusion intersection numbers of patches of sginma(\Gamma).
+Folder: graph_stability_conditions
+Description: Using an exhaustive method get all weak stability conditions up to translation. For GNkM1 graphs we extend the genus 1 case. 
+Main files: 
+\Stability_Conditions\Graph\graph_stability_conditions\assignments.ipynb
+\Stability_Conditions\Graph\graph_stability_conditions\wsc_k_edge_g_1.ipynb"
+
+Folder: phi_investigation
+Description: Investigate what phi determine the weak stability conditions.
+Main file: \Stability_Conditions\Graph\phi_investigation\phi_analysis.ipynb
+
+Folder: find_cycles
+Description: Obtain and then analyse cycles on subgraphs of the form T \cup e for a given weak stability condition.
+Main files:
+ \Stability_Conditions\Graph\find_cycles\find_cycles.ipynb
+\Stability_Conditions\Graph\find_cycles\analyse_cycles.ipynb
+
+Folder: MSA
+Description: Calculate Pn up to n=6
+Main file: \Stability_Conditions\MSA\Pn.ipynb
+
+
+
+

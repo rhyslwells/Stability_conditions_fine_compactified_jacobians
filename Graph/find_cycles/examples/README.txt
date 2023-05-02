@@ -1,0 +1,1 @@
+The following are weak stability conditions, but subgraphs do NOT have cycles.

@@ -1,1 +1,0 @@
-Check \sigma_{\Gamma}(\Gamma) is a complete set of representatives for chip firing action, for weak stabilities up to translation.
