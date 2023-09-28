@@ -1,0 +1,1 @@
+Assignments_all_subgraph is a stronger check than done in assignmemnts. 

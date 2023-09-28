@@ -1,11 +1,9 @@
-Update:020323
+Done:
 
-Folders K33,Introductions are main. The rest need to be editted wrt to them.
+Folder:Assignment_induced_datum
+Description: Give examples and visualisation of sigma^{A_{\Gamma}}(\Gamma) as we vary A_{\Gamma} for triangle and 2-vine graphs.
 
----
-
-Folder:Introduction
-Description: Introduces stability conditions. Give examples of pictures of changing top set of sigma(\Gamma).
+To be editted:
 
 Folder:genus_1_graphs
 Description:Gives stability condntions for genus 1 graphs from a cycle.
@@ -16,6 +14,8 @@ Description:Gets all stability conditions for graphs with middle edge of genus 2
 Folder:low_genus_2_graphs
 Description:Gets all stability conditions for graphs with middle edge of genus 2 up to 4 vertices.
 
-Folder:Top Level overlap
-Description:Examples of inclusion exclusion intersection numbers of patches of sginma(\Gamma).
-
+Folder: find_cycles
+Description: Obtain and then analyse cycles on subgraphs of the form T \cup e for a given weak stability condition.
+Main files:
+ \Stability_Conditions\Graph\find_cycles\find_cycles.ipynb
+\Stability_Conditions\Graph\find_cycles\analyse_cycles.ipynb
