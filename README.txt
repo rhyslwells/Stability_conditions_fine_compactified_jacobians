@@ -1,12 +1,10 @@
-This package has been created by Rhys Wells. It contains analysis of stability conditions of generalised break divisors on a graph and mildly superadditive functions (See Papers).
-
-In both cases we construct non-trival examples and conduct analysis of the results of which are discussed in Rhys's PhD thesis "Combinatorial aspects of the stability space of compactified Jacobians" (See Papers).
+This package has been created by Rhys Wells. It contains analysis of stability conditions of generalised break divisors on a graph and mildly superadditive functions. In both cases we construct non-trival examples and conduct analysis of the results of which are discussed in Rhys's PhD thesis "Combinatorial aspects of the stability space of compactified Jacobians" (See Papers).
 
 ------------------------------------------------------------------
 
 In Graph:
 
-We produce examples of weak degree $d$ stability conditions, and for each construct the associated phi stability region P_{ST}^{\sigma_{\Gamma}}.
+We produce examples of (weak) stability conditions, and for each construct the associated phi stability region P_{ST}^{\sigma_{\Gamma}}.
 
 In MSA:
 
@@ -26,28 +24,24 @@ rhyslwells@outlook.com
 
 Files of Note (chronological order of appearance in thesis):
 
-Folder: introduction
-Description: Introduces stability conditions. Give examples of pictures showing $sigma_{\Gamma}^{A_\Gamma}(\Gamma)$ as $A$ varies.
-Main file: \Stability_Conditions\Graph\BasicExamples.ipynb
+Folder: Assignment_induced_datum
+Description: Introduces stability conditions. Give examples and pictures showing $sigma_{\Gamma}^{A_\Gamma}(\Gamma)$ as $A_\Gamma$ varies.
+Main file: \Stability_Conditions\Graph\Assignment_induced_datum\Assignment_induced_datum.ipynb"
 
 Folder: genus_1_graphs
 Description: Gives stability condntions for genus 1 graphs from a cycle.
-Main file: \Stability_Conditions\Graph\genus_1_graphs\Cycles_to_weakstab.ipynb"
+Main file: \Stability_Conditions\Graph\genus_1_graphs\3_Cycles_to_weakstab.ipynb"
 
 Folder: graph_stability_conditions
-Description: Using an exhaustive method get all weak stability conditions up to translation. For GNkM1 graphs we extend the genus 1 case. 
+Description: Using an exhaustive method to obtain all (weak) stability conditions up to translation. For graphs with multiple edges we extend the genus 1 case. 
 Main files: 
-\Stability_Conditions\Graph\graph_stability_conditions\assignments.ipynb
-\Stability_Conditions\Graph\graph_stability_conditions\wsc_k_edge_g_1.ipynb"
+\Stability_Conditions\Graph\graph_stability_conditions\4_assignments.ipynb
+\Stability_Conditions\Graph\graph_stability_conditions\5_assignments_11k3graphs.ipynb"
 
 Folder: phi_investigation
-Description: Investigate what phi determine the weak stability conditions.
-Main file: \Stability_Conditions\Graph\phi_investigation\phi_analysis.ipynb
+Description: Investigate the phi which determine the (weak) stability conditions.
+Main file: \Stability_Conditions\Graph\phi_investigation\6_phi_analysis.ipynb
 
 Folder: MSA
 Description: Calculate Pn up to n=6
 Main file: \Stability_Conditions\MSA\Pn.ipynb
-
-
-
-
